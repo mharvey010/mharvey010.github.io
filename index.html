@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name — Personal Site</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ░░ NAVIGATION ░░ -->
+  <nav class="nav">
+    <span class="nav-name">Your Name</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ░░ HERO ░░ -->
+  <header class="hero">
+    <div class="hero-content">
+      <p class="hero-label">Hello, I'm</p>
+      <h1 class="hero-name">Your<br><em>Full Name</em></h1>
+      <p class="hero-tagline">One-line description of what you do or who you are.</p>
+      <div class="hero-cta">
+        <a href="#work" class="btn btn-primary">See My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-decoration" aria-hidden="true">
+      <span class="deco-line"></span>
+      <span class="deco-circle"></span>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ░░ ABOUT ░░ -->
+    <section id="about" class="section about">
+      <div class="section-inner">
+        <div class="section-label">
+          <span class="label-num">01</span>
+          <span class="label-text">About Me</span>
+        </div>
+        <div class="about-grid">
+          <div class="about-photo-wrap">
+            <!-- Replace src with your photo path, e.g. assets/photo.jpg -->
+            <div class="about-photo-placeholder">
+              <span>Your Photo</span>
+            </div>
+          </div>
+          <div class="about-text">
+            <h2>A little about me</h2>
+            <p>
+              Write a short paragraph introducing yourself here. Who are you, where are you based,
+              and what drives you? Keep it personal and genuine — this is the first thing visitors read.
+            </p>
+            <p>
+              Add a second paragraph with more detail: your background, how you got into your field,
+              or what you're currently focused on.
+            </p>
+            <ul class="about-facts">
+              <li><span class="fact-label">Based in</span><span class="fact-value">Your City, Country</span></li>
+              <li><span class="fact-label">Currently</span><span class="fact-value">Your current role or status</span></li>
+              <li><span class="fact-label">Studying / Working on</span><span class="fact-value">Something you're learning</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ WORK / EXPERIENCE ░░ -->
+    <section id="work" class="section work">
+      <div class="section-inner">
+        <div class="section-label">
+          <span class="label-num">02</span>
+          <span class="label-text">Experience</span>
+        </div>
+        <h2>Where I've worked</h2>
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date">20XX — Present</span>
+              <span class="timeline-company">Company Name</span>
+            </div>
+            <div class="timeline-body">
+              <h3 class="timeline-role">Your Job Title</h3>
+              <p>Briefly describe what you did, what you built, or what impact you had. One or two sentences is plenty.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date">20XX — 20XX</span>
+              <span class="timeline-company">Previous Company</span>
+            </div>
+            <div class="timeline-body">
+              <h3 class="timeline-role">Previous Role</h3>
+              <p>Describe this role. Highlight achievements or skills gained here.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-meta">
+              <span class="timeline-date">20XX — 20XX</span>
+              <span class="timeline-company">Another Company</span>
+            </div>
+            <div class="timeline-body">
+              <h3 class="timeline-role">Earlier Role</h3>
+              <p>A brief description. You can add or remove timeline items as needed.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ PROJECTS ░░ -->
+    <section id="projects" class="section projects">
+      <div class="section-inner">
+        <div class="section-label">
+          <span class="label-num">03</span>
+          <span class="label-text">Projects</span>
+        </div>
+        <h2>Things I've built</h2>
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="project-card-top">
+              <span class="project-tag">Tag / Category</span>
+              <a href="#" class="project-link" aria-label="View project">↗</a>
+            </div>
+            <h3 class="project-title">Project Name</h3>
+            <p class="project-desc">Describe what this project is, what problem it solves, or what you learned building it.</p>
+            <div class="project-tech">
+              <span>Tech 1</span>
+              <span>Tech 2</span>
+              <span>Tech 3</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-top">
+              <span class="project-tag">Tag / Category</span>
+              <a href="#" class="project-link" aria-label="View project">↗</a>
+            </div>
+            <h3 class="project-title">Another Project</h3>
+            <p class="project-desc">A short description of this project. Link it to a live demo or GitHub repo above.</p>
+            <div class="project-tech">
+              <span>Tech 1</span>
+              <span>Tech 2</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-top">
+              <span class="project-tag">Tag / Category</span>
+              <a href="#" class="project-link" aria-label="View project">↗</a>
+            </div>
+            <h3 class="project-title">Third Project</h3>
+            <p class="project-desc">Keep descriptions concise. Let the project name and tech stack do most of the talking.</p>
+            <div class="project-tech">
+              <span>Tech 1</span>
+              <span>Tech 2</span>
+              <span>Tech 3</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ░░ CONTACT ░░ -->
+    <section id="contact" class="section contact">
+      <div class="section-inner contact-inner">
+        <div class="section-label">
+          <span class="label-num">04</span>
+          <span class="label-text">Contact</span>
+        </div>
+        <h2>Let's talk</h2>
+        <p class="contact-blurb">
+          Whether you have a question, an opportunity, or just want to say hi —
+          my inbox is always open.
+        </p>
+        <a href="mailto:you@email.com" class="btn btn-primary contact-btn">Say Hello →</a>
+        <div class="social-links">
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://twitter.com/yourusername" target="_blank" rel="noopener">Twitter / X</a>
+          <!-- Add or remove social links as needed -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="footer">
+    <p>Designed &amp; built by <strong>Your Name</strong> · <span id="year"></span></p>
+  </footer>
+
+  <script>
+    // Auto-update the year in the footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Fade-in sections on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.section').forEach(s => observer.observe(s));
+  </script>
+
+</body>
+</html>
